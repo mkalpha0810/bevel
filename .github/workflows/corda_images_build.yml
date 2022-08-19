@@ -32,6 +32,9 @@ on:
   push:
     branches:
       - develop
+    tags:        
+      - v2
+      - v1.*
     paths:
       - 'platforms/r3-corda/images/**'   
       - '.github/workflows/corda_images_build.yml'
