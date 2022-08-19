@@ -31,7 +31,7 @@ on:
       - v*
   push:
     branches:
-      - develop
+      - !develop
     tags:        
       - v2
       - v1.*
